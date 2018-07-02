@@ -17,3 +17,9 @@ RUN chmod -v +x /start-httpd.sh
 #ENTRYPOINT ["/usr/sbin/httpd", "-D", "FOREGROUND"]
 
 CMD ["/start-httpd.sh"]
+
+
+Questions
+ docker run -it kiranhttpd:2
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+why I am getting this error ? what is the sotion to this? 
